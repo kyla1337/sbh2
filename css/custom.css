@@ -435,7 +435,7 @@ body{
 .section-title h1{
 	font-family: var(--accent-font);
 	font-size: 70px;
-	text-transform: uppercase;
+	text-transform: ;
 	font-weight: 400;
 	line-height: 1.1em;
 	margin-bottom: 0;
