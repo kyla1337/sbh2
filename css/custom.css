@@ -1026,8 +1026,9 @@ body:has(.offcanvas){
 	bottom: 0;
 	right: 0;
 	background: var(--secondary-color);
-	opacity: 80%;
+	opacity: 50%;
 	z-index: 1;
+	transition-delay: 0.5s;
 }
 
 .hero.hero-video .hero-bg-video{
