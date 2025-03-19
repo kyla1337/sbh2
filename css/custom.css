@@ -2035,7 +2035,7 @@ body:has(.offcanvas){
 .offer-circle-image-1,
 .offer-circle-image-2{
 	position: absolute;
-	border: 8px solid var(--primary-color);
+	border: 8px solid #121d23;
 	border-radius: 50%;
 	z-index: 1;
 }
