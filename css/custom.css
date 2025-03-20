@@ -48,8 +48,8 @@
 	--primary-color				: #FFFFFF;
 	--secondary-color			: #121D23;
 	--text-color				: #CECECE;
-	--accent-color				: #875e44;
-	--accent-secondary-color	: #c9a581;
+	--accent-color				: #539cff;
+	--accent-secondary-color	: #83b2f3;
 	--divider-color				: #FFFFFF24;
 	--dark-divider-color		: #FFFFFF1A;
 	--error-color				: rgb(230, 87, 87);
@@ -216,7 +216,7 @@ body{
 	font-weight: 500;
 	line-height: 1em;
 	text-transform: capitalize;
-	background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-secondary-color) 50%, var(--accent-color) 100%);
+	background: linear-gradient(90deg, #83b2f3 0%, #539cff 50%, #539cff 100%)
 	background-size: 200% auto;
 	color: var(--secondary-color);
 	border: none;
@@ -233,8 +233,8 @@ body{
 
 .btn-default.btn-highlighted{
 	background: transparent;
-	border: 1px solid #b18b6b;
-	color: #fbb06e;
+	border: 1px solid #539cff;
+	color: #83b2f3;
 	padding: 16px 30px;
 }
 
@@ -250,7 +250,7 @@ body{
   	left: 50%;
   	right: 50%;
   	opacity: 0;
-	background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-secondary-color) 100%);
+	background: linear-gradient(90deg, #83b2f3 0%, #539cff 100%);
 	border-radius: 100px;
 	transition: all 0.4s ease-in-out;
 	z-index: -1;
