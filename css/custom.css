@@ -2458,6 +2458,7 @@ body:has(.offcanvas){
 .footer-copyright-text p{
 	color: var(--primary-color);
 	margin-bottom: 0;
+	font-size: 15px;
 }
 
 .footer-logo img{
