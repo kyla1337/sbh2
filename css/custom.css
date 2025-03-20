@@ -783,7 +783,7 @@ body:has(.offcanvas){
 .header-sidebar-info{
 	background: url(../images/icon-coffee-beans.svg) no-repeat;
 	background-position: center bottom 27px;
-	background-size: 16px auto;
+	background-size: 40px auto;
 	padding-bottom: 70px;
 }
 
