@@ -337,7 +337,10 @@
                         <!-- Contact Form Content End -->
 
                         <!-- Contact Form Start -->
-<?php
+                         <div class="contact-form">
+                            <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="row">
+					<?php
 
 	$errorMSG = "";
 
@@ -414,9 +417,6 @@
 	}
 
 ?>
-                         <div class="contact-form">
-                            <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="row">
                                     <div class="form-group col-md-6 mb-5">
                                         <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required>
                                         <div class="help-block with-errors"></div>
