@@ -61,7 +61,7 @@
 	$Body .= "\n";
 
 	// send email
-	$success = @mail($EmailTo, $subject, $Body, "From:" $email);
+	$success = @mail($EmailTo, $subject, $Body, "From:".$email);
 
 	// redirect to success page
 	if ($success && $errorMSG == ""){
