@@ -60,31 +60,6 @@
 /************************************/
 /*** 	   02. General css		  ***/
 /************************************/
-#container {
-    width: 600px;
-    margin:  0 auto;
-}
-
-nav {
-    width: 600px;
-    height: 100px;
-    background: lightblue;
-}
-
-#alert {
-    width: 600px;
-    height: 40px;
-    position: sticky;
-    top: 0;
-    background: orangered;
-    cursor: pointer;
-}
-
-section {
-    width: 600px;
-}
-
-
 
 body{
 	font-family: var(--default-font);
@@ -6281,4 +6256,5 @@ body:has(.offcanvas){
         margin-bottom: 20px;
     }
 }
+
 
