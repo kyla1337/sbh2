@@ -4,12 +4,6 @@
 	var $window = $(window); 
 	var $body = $('body'); 
 
-const alert = document.getElementById("alert");
-
-alert.addEventListener("click", function() {
-    alert.style.position = "static";
-    alert.style.display = "none";
-})
 	
 	/* Preloader Effect */
 	$window.on('load', function(){
