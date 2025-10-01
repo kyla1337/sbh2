@@ -210,7 +210,7 @@ body{
 }
 
 .rest-guru {
-  position: fixed;
+  position: fixed !important;
   right: 1rem;
   bottom: 1rem;
 }
@@ -6262,6 +6262,7 @@ body:has(.offcanvas){
         margin-bottom: 20px;
     }
 }
+
 
 
 
