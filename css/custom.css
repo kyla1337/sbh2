@@ -209,12 +209,6 @@ body{
     padding-left: 0px;
 }
 
-.rest-guru {
-  position: fixed !important;
-  right: 1rem;
-  bottom: 1rem;
-}
-
 .btn-default{
 	position: relative;
 	display: inline-block;
@@ -6262,6 +6256,7 @@ body:has(.offcanvas){
         margin-bottom: 20px;
     }
 }
+
 
 
 
