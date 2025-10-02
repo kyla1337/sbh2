@@ -153,6 +153,12 @@ body{
 	overflow: hidden;
 }
 
+.rest-guru {
+  position: absolute !important;
+  right: 54rem;
+  bottom: 14rem;
+}
+
 .image-anime:after{
 	content: "";
 	position: absolute;
@@ -6256,6 +6262,7 @@ body:has(.offcanvas){
         margin-bottom: 20px;
     }
 }
+
 
 
 
