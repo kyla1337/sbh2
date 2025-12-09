@@ -2708,6 +2708,7 @@ body:has(.offcanvas){
 	cursor: none;
 	border-radius: 30px;
 	overflow: hidden;
+	margin: 1em 1em 1em 1em;
 }
 
 .team-image figure:before{
@@ -6262,6 +6263,7 @@ body:has(.offcanvas){
         margin-bottom: 20px;
     }
 }
+
 
 
 
